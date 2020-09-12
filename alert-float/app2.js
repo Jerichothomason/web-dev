@@ -28,7 +28,7 @@ window.addEventListener('scroll', function(){
         {
             navbar.classList.toggle('hide-nav');
             console.log("up");
-            alert('down');
+            alert('up');
             down=false;
             up=true;
         }
