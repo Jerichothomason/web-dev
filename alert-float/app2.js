@@ -17,6 +17,7 @@ window.addEventListener('scroll', function(){
         {
             navbar.classList.toggle('hide-nav');
             console.log("down");
+            alert('down');
             down=true;
             up=false;
         }
@@ -27,6 +28,7 @@ window.addEventListener('scroll', function(){
         {
             navbar.classList.toggle('hide-nav');
             console.log("up");
+            alert('down');
             down=false;
             up=true;
         }
